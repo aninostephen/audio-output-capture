@@ -1,6 +1,6 @@
 from groq import Groq
 
-api_key = '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'
+api_key = 'GROQ-API'
 client = Groq(api_key=api_key)
 
 def groq_execute(prompt):

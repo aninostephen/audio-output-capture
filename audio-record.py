@@ -9,7 +9,7 @@ import pyaudiowpatch as pyaudio
 import threading
 from audio_groq_service import groq_execute
 
-openai.api_key = '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'
+openai.api_key = 'CHAT-GPT-API'
 
 messages = [
     {"role": "system", "content": "Its all about web development interview"},
